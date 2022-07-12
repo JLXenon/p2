@@ -2,6 +2,10 @@ body{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+
+            /* HEADER*/
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -18,4 +22,39 @@ nav img{
     height: 70px;
     margin-left: 55px;
     margin-top: 20px;
+}
+div h2 {
+    font-family: 'Raleway', sans-serif;
+}
+#find{
+    margin-left: 50px;
+}
+#location nav li {
+    margin: 0 20px 0;
+    font-weight: bold;
+}
+#location ul {
+    border: solid 1px;
+    border-color: rgb(104, 103, 103);
+    border-radius: 30px;
+}
+#location nav{
+ margin-left: 30px;
+}
+#li1loc{
+    background-color: rgb(214, 210, 210);
+}
+#li3loc{
+    color: white;
+    background-color: #0065FC;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #0065FC;
+    border-top: solid;
+    
+    
 }
