@@ -1,60 +1,251 @@
-body{
+body {
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+    padding: 0 50px;
+    font-family: 'Raleway', sans-serif;
 }
 
-
-            /* HEADER*/
-
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 nav ul {
     display: flex;
     list-style: none;
 }
-nav li{
+
+nav li {
     margin: 0 55px 0 50px;
 }
-nav img{
+
+nav img {
     height: 70px;
-    margin-left: 55px;
     margin-top: 20px;
 }
-div h2 {
-    font-family: 'Raleway', sans-serif;
-}
-#find{
-    margin-left: 50px;
-}
-#location nav li {
-    margin: 0 20px 0;
-    font-weight: bold;
-}
-#location ul {
-    border: solid 1px;
-    border-color: rgb(104, 103, 103);
-    border-radius: 30px;
-}
-#location nav{
- margin-left: 30px;
-}
-#li1loc{
-    background-color: rgb(214, 210, 210);
-}
-#li3loc{
-    color: white;
-    background-color: #0065FC;
-}
-a{
+
+a {
     text-decoration: none;
     color: black;
+    
 }
-a:hover{
+
+header a:hover {
     color: #0065FC;
     border-top: solid;
-    
-    
+    padding: 30px;
 }
+#find p{
+    margin-bottom: 30px;
+}
+#location {
+    display: inline-block;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+}
+
+.search {
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-radius: 1px 15px 15px 1px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+input {
+    border: none;
+    margin-left: -2px;
+    font-size: 16px;
+    padding: 15px;
+}
+
+::placeholder {
+    font-weight: bold;
+    color: black;
+}
+
+label {
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-radius: 15px 2px 2px 15px;
+}
+
+#filter {
+    display: flex;
+    align-items: center;
+}
+
+#filter h2 {
+    margin: 50px;
+}
+
+.monBtn {
+    background-color: white;
+    font-weight: bold;
+    border: solid 3px #F2F2F2;
+    border-radius: 30px;
+    border-color: #F2F2F2;
+    height: 50px;
+    padding: 0;
+    margin: 10px;
+}
+
+#filter div i {
+    color: #0065FC;
+    background-color: #bbd0f0;
+    border: 0px solid;
+    padding: 17px;
+    border-radius: 50px;
+}
+
+#dispo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#dispo i {
+    margin: 20px;
+    color: #0065FC;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#hebergement img {
+    border-radius: 20px 20px 0 0;
+    height: 12vh;
+    width: 11vw;
+}
+
+#hebergement {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #F2F2F2;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+#hebergement article {
+    margin: 20px;
+    background-color: white;
+    height: 26vh;
+    width: 11vw;
+    border-radius: 20px;
+}
+
+#hebergement h3 {
+    text-align: center;
+}
+
+#hebergement h4 {
+    text-align: center;
+}
+
+.allstar {
+    text-align: center;
+}
+
+.stargrey {
+    color: rgb(171, 170, 170);
+    font-size: 13;
+}
+
+.bluestar {
+    color: #0065FC;
+    font-size: 13;
+}
+
+#populaire {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin-right: 10%;
+    width: 25vw;
+    height: 70vh;
+}
+
+#populaire article {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 40px;
+    width: 20vw;
+}
+
+#populaire h3 {
+    width: 10vw;
+}
+
+#populaire img {
+    width: 7vw;
+    height: 15vh;
+    border-radius: 20px 0 0 20px;
+}
+
+#bloc1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#filter a {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#hebergement h3 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#hebergement h4 {
+    font-weight: 100;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+
+.footer-pannel h3 {
+    text-align: center;
+}
+
+.footer-pannel li {
+    list-style: none;
+}
+
+.soloart img {
+    width: 15vw;
+    height: 45vh;
+    border-radius: 20px 20px 0 0;
+}
+
+#bloc2  {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.duoart img {
+    width: 15vw;
+    height: 15vh;
+    border-radius: 20px 20px 0 0;
+}
+
+#bloc2 article {
+    border: solid 1px grey;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.75rem rgb(157, 157, 157));
+}
+
+.duoart article {
+    margin-top: 39px;
+}
+
+#bloc2 h3 {
+    text-align: center;
+}
+
