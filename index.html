@@ -9,6 +9,8 @@
   <link rel="icon" href="images\logo\Booki.png" />
   <script src="https://kit.fontawesome.com/29ce9e6a7c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" media="screen and (max-width: 1102px)" href="style_moyen.css" />
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="style_petit.css" />
 
   <!-- FONT -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,8 +26,8 @@
       <nav>
         <img src="./images/logo/booki.png" alt="Logo" />
         <ul>
-          <li><a href="#">Hébergements</a></li>
-          <li><a href="#">Activités</a></li>
+          <li><a href="#hebergement">Hébergements</a></li>
+          <li><a href="#bloc2">Activités</a></li>
         </ul>
       </nav>
     </header>
@@ -37,7 +39,6 @@
         <p>En plein centre ville ou en pleine nature</p>
       </div>
 
-      <!--EN COURS DE DEV-->
       <div id="location">
         <label for="i"><i class="fa-solid fa-location-dot"></i></label>
         <input type="text" placeholder="Marseille, France" />
@@ -226,8 +227,8 @@
           </article>
         </div>
         <div class="duoart">
-          <article>
-            <img src="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="" />
+          <article class="fort">
+            <img src="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=""  />
             <h3>Fort de Pormègues</h3>
           </article>
           <article>

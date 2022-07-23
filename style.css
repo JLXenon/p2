@@ -54,6 +54,8 @@
     border-radius: 1px 15px 15px 1px;
     padding: 15px;
     font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
   }
   
   input {
@@ -126,17 +128,16 @@
   #hebergement img {
     border-radius: 20px 20px 0 0;
     text-align: center;
-    width: 14vw;
-    height: 12vh;
-    /* height: 90%; */
+    width: 270px;
+    height: 117px;
+    object-fit: cover;
   }
   
   #hebergement {
     display: flex;
     flex-flow: row wrap;
     background-color: #f2f2f2;
-    width: 60vw;
-    height: 83.5vh;
+    width: 60%;
     border-radius: 10px;
     padding-top: 25px;
   }
@@ -146,17 +147,15 @@
     flex-flow: row wrap;
     justify-content: space-around;
     background-color: #f2f2f2;
-    width: 70vw;
     border-radius: 10px;
-    margin-top: -40px;
+    margin-top: -78px;
   }
   
   #hebergement article {
     display: flex;
     padding: 10px;
     background-color: white;
-    width: 14vw;
-    height: 20vh;
+    height: 190px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(205, 204, 204);
   }
@@ -164,8 +163,6 @@
   #hebergement h2 {
     margin-left: 30px;
     margin-bottom: 0;
-    width: 20vw;
-    height: 30px;
   }
   
   #hebergement h3 {
@@ -197,17 +194,17 @@
     align-items: center;
     flex-flow: column nowrap;
     display: flex;
+    margin-top: -40px;
   }
   #populaire {
     background-color: #f2f2f2;
     border-radius: 10px;
-    width: 25vw;
-    height: 80vh;
     padding: 30px;
   }
   #populaire h4{
     margin: 0;
     margin-top: 10px;
+    font-weight: 200;
   }
   
   #populaire article {
@@ -215,21 +212,21 @@
     background-color: white;
     border-radius: 15px;
     margin-top: 47px;
-    width: 20vw;
+    width: 365px;
     padding: 6px;
     box-shadow: 5px 5px 5px rgb(205, 204, 204);
   }
-  
+
   #populaire h3 {
-    width: 10vw;
     margin: 0;
   }
   
   #populaire img {
-    width: 7vw;
-    height: 15vh;
+    width: 150px;
+    height: 138px;
     border-radius: 20px 0 0 20px;
     margin: 6px;
+    object-fit: cover;
   }
   .article_pop div{
     margin-top: 50px;
@@ -244,6 +241,7 @@
     margin: 20px;
     font-weight: 700;
     font-size: 16px;
+    font-family: "Raleway", sans-serif;
   }
   
   #hebergement h3 {
@@ -260,6 +258,7 @@
     justify-content: space-around;
     background-color: #f2f2f2;
     margin-top: 50px;
+    padding: 50px;
   }
 
   .footer-pannel li {
@@ -271,10 +270,11 @@
     padding: 0;
   }
 
-  .soloart img {
-    width: 15vw;
-    height: 45vh;
+  .soloart img {  
+    width: 375px;
+    height: 477px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
   }
 
   .soloart{
@@ -285,14 +285,14 @@
   #box_act{
     display: flex;
     justify-content: space-between;
-    width: 80vw;
     margin-left: 40px;
   }
-
+ 
   .duoart img {
-    width: 15vw;
-    height: 15vh;
+    width: 380px;
+    height: 170px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
   }
   
   #bloc2{
@@ -302,7 +302,7 @@
   #bloc2 article {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(205, 204, 204);
-    height: 22vh;
+    height: 230px;
   }
   
   .duoart article {

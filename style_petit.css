@@ -1,0 +1,67 @@
+label{
+    padding: 8px;
+}
+input{
+    padding: 8px;
+}
+.search{
+    padding: 8px;
+}
+#location{
+    margin-left: 3%;
+}
+nav img{
+    width: 100px;
+    height: 60px;
+}
+nav ul li {
+    margin: 0;
+}
+#hebergement article{
+    width: 306px;
+    margin-left: 10%;
+    
+}
+#hebergement img{
+    width: 100%;
+}
+#box-hebergement{
+    display: block;
+    margin-top: -46px;
+}
+#hebergement{
+    width: 100%;
+    margin: 0;
+}
+#main{
+    padding: 0;
+}
+#find h2{
+    margin-left: 46px;
+}
+#find p{
+    margin-left: 50px;
+}
+#location{
+    margin-left: 8%;
+}
+#dispo p{
+    margin-left: 1px;
+}
+.panneau{
+    width: 306px;
+}
+#box_act{
+    margin: 2px;
+}
+.duoart{
+    width: 350px;
+    margin-left: 30px;
+}
+.soloart{
+    width: 350px;
+    margin-left: 30px;
+}
+.footer-pannel{
+    margin-left: 55px;
+}
