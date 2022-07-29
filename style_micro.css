@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    margin: 0;
+    width: 119%;
+}
+header nav ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+#find p{
+    margin-left: 0;
+}
+section #location{   
+    margin-left: 0;
+}
+#box-hebergement {
+    margin-left: 0;
+    background-color: white;
+}
+#find h2{
+    font-size: 20px;
+    margin-left: 0;
+}
+header nav img{
+    margin-left: 45%;
+}
+#filter h2{
+    font-size: 20px;
+    padding-left: 15px;
+}
+#filter div{
+    margin-top: -50px;
+}
+#hebergement article{
+    margin-left: 0;
+}
+#populaire article{
+    width: 293px;
+    height: 150px;
+}
+.article_pop div {
+    margin-top: 2px;
+}
+.bluestar{
+    font-size: 14px;
+}
+.stargrey{
+    font-size: 14px;
+}
+#populaire h3{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#populaire h4{
+    margin-top: 2px;
+}
+#hebergement{
+    width: 105%;
+    background-color: white;
+}
+#populaire{
+    width: 85%;
+}
+.soloart{
+    width: 311px;
+}
+.duoart{
+    width: 311px;
+}
+footer{
+    width: 100%;
+}
+#box_act{
+    margin-left: 0;
+}
+.soloart article{
+    margin-top: 5px;
+}

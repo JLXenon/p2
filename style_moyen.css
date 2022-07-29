@@ -9,7 +9,7 @@ header nav img{
 }
 
 header nav ul{
-    margin-left: 8%;
+    margin-left: 13%;
     align-items: center;
 }
 
@@ -27,19 +27,20 @@ header a:hover {
 #location{
     margin-left: 20%;
 }
-#filter{
+/* #filter{
     margin-top: 50px;
     display: block;
-}
-#filter div{
+} */
+/* #filter div{
     margin-left: 50px;
-}
+} */
 #main-content {
-    display: block;
+    display: flex;
 }
+
 #hebergement {
     display: block;
-    margin-left: 20%;
+    margin-left: 0;
 }
 #hebergement h2{
     margin-bottom: 70px;
@@ -48,7 +49,7 @@ header a:hover {
     margin-top: 20px;
 }
 #populaire{
-    margin-top: 50px;
+    margin-top: 0;
 }
 footer{
     display: block;
@@ -59,7 +60,8 @@ footer{
     margin-top: 50px;
 }
 #box_act{
-   display: block;
+    display: block;
+    margin-left: 0;
 }
 .soloart img{
     width: 100%;
@@ -67,4 +69,7 @@ footer{
 }
 .duoart img{
     width: 100%; 
+}
+.soloart{
+    width: 100%;
 }

@@ -1,14 +1,18 @@
+body{
+    margin: 0;
+}
 label{
-    padding: 8px;
+    padding: 15px;
 }
 input{
-    padding: 8px;
+    padding: 15px;
 }
 .search{
-    padding: 8px;
+    padding: 15px;
+    display: none;
 }
-#location{
-    margin-left: 3%;
+section #location{
+    margin-left: 18%;
 }
 nav img{
     width: 100px;
@@ -16,6 +20,23 @@ nav img{
 }
 nav ul li {
     margin: 0;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header a {
+    padding: 20px;
+    font-size: 15px;
+}
+header{
+    border-bottom: solid 2px #f2f2f2;
+    
 }
 #hebergement article{
     width: 306px;
@@ -36,15 +57,23 @@ nav ul li {
 #main{
     padding: 0;
 }
+#main-content{
+    display: block;
+}
 #find h2{
-    margin-left: 46px;
+    margin: 0;
+    margin-top: 20px;
 }
 #find p{
-    margin-left: 50px;
+    margin: 0;
+    margin-top: 20px;
 }
+
 #location{
-    margin-left: 8%;
+    margin-top: 30px;
+    margin-left: 0;
 }
+
 #dispo p{
     margin-left: 1px;
 }
@@ -53,6 +82,7 @@ nav ul li {
 }
 #box_act{
     margin: 2px;
+    margin-left: 5px;
 }
 .duoart{
     width: 350px;
@@ -63,5 +93,11 @@ nav ul li {
     margin-left: 30px;
 }
 .footer-pannel{
-    margin-left: 55px;
+    margin-left: 1px;
+}
+
+.search2{
+    display: inline-block;
+    padding: 15px;
+    border-radius: 12px;
 }

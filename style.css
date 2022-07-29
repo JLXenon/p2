@@ -5,6 +5,7 @@
   }
   #main{
     padding: 0 50px;
+    scroll-behavior: smooth;
   }
   nav {
     display: flex;
@@ -57,6 +58,17 @@
     cursor: pointer;
     font-weight: bold;
   }
+  .search2 {
+    background-color: #0065fc;
+    color: white;
+    border: none;
+    border-radius: 1px 15px 15px 1px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    display: none;
+  }
   
   input {
     border: none;
@@ -76,15 +88,19 @@
     border-radius: 15px 2px 2px 15px;
   }
   
-  #filter {
+  /* #filter {
     display: flex;
     align-items: center;
     margin-left: -44px;
+  } */
+  
+  #filter {
+    margin-top: 30px;
   }
   
-  #filter h2 {
+  /* #filter h2 {
     margin: 50px;
-  }
+  } */
   
   .monBtn {
     background-color: white;
@@ -92,23 +108,26 @@
     border: solid 3px #f2f2f2;
     border-radius: 30px;
     border-color: #f2f2f2;
-    height: 50px;
     padding: 0;
     margin: 10px;
   }
   
   #filter div i {
     color: #0065fc;
-    background-color: #bbd0f0;
+    background-color: #deebff;
     border: 0px solid;
-    padding: 17px;
-    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
   }
   
   #dispo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 20px;
   }
   
   #dispo i {
@@ -132,7 +151,11 @@
     height: 117px;
     object-fit: cover;
   }
-  
+
+  section {
+    padding: 20px;
+  }
+
   #hebergement {
     display: flex;
     flex-flow: row wrap;
@@ -271,7 +294,7 @@
   }
 
   .soloart img {  
-    width: 375px;
+    width: 100%;
     height: 477px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -280,6 +303,7 @@
   .soloart{
     box-shadow: 0px 0px 10px rgb(205, 204, 204);
     border-radius: 20px;
+    width: 350px;
   }
 
   #box_act{
@@ -303,6 +327,7 @@
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(205, 204, 204);
     height: 230px;
+    
   }
   
   .duoart article {
