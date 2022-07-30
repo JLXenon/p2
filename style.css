@@ -355,3 +355,291 @@
   .more a {
     margin-left: 60px;
   }
+                    /*MEDIA */
+  @media screen and (max-width: 1102px) {
+      body{
+        margin: 0;
+    
+    }
+    .search2{
+        display: none;
+    }
+    
+    nav{display: block;}
+    
+    header nav img{
+        margin-left: 45%;
+    }
+    
+    header nav ul{
+        margin-left: 10%;
+        align-items: center;
+    }
+    
+    header a{
+        padding: 20px;
+    }
+    
+    header a:hover {
+        color: #0065fc;
+        border-bottom: solid;
+        border-top: none;
+        padding: 20px;
+    }
+    #find h2{margin-top: 70px;}
+    #location{
+        margin-left: 20%;
+    }
+    /* #filter{
+        margin-top: 50px;
+        display: block;
+    } */
+    /* #filter div{
+        margin-left: 50px;
+    } */
+    #main-content {
+        display: block;
+    }
+    
+    #hebergement {
+        display: block;
+        margin-left: 0;
+        width: 93%;
+        margin-bottom: 20px;
+    }
+    #hebergement h2{
+        margin-bottom: 70px;
+    }
+    #hebergement article{
+        margin-top: 20px;
+    }
+    #populaire{
+        margin-top: 0;
+    }
+    footer{
+        display: block;
+        background-color: #f2f2f2;
+    }
+    .footer-pannel{
+        margin-left: 40%;
+        margin-top: 50px;
+    }
+    #box_act{
+        display: block;
+        margin-left: 0;
+    }
+    .soloart img{
+        width: 100%;
+        height: 177px;
+    }
+    #box-hebergement {
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+    .duoart img{
+        width: 100%; 
+    }
+    .soloart{
+        width: 100%;
+        margin-top: 40px;
+    }
+  }
+  @media screen and (max-width: 760px) {
+      body{
+        margin: 0;
+    }
+    label{
+        padding: 15px;
+    }
+    input{
+        padding: 15px;
+    }
+    .search{
+        padding: 15px;
+        display: none;
+    }
+    section #location{
+        margin-left: 0;
+    }
+    nav img{
+        width: 100px;
+        height: 60px;
+    }
+    nav ul li {
+        margin: 0;
+    }
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    header a {
+        padding: 20px;
+        font-size: 15px;
+    }
+    header{
+        border-bottom: solid 2px #f2f2f2;
+        
+    }
+    #hebergement article{
+        width: 306px;
+        margin-left: 10%;
+        
+    }
+    #hebergement img{
+        width: 100%;
+    }
+    #box-hebergement{
+        display: block;
+        margin-top: -46px;
+        margin-right: 160px;
+    }
+    #hebergement{
+        width: 91.5%;
+        margin: 0;
+    }
+    #main{
+        padding: 0;
+    }
+    #main-content{
+        display: block;
+    }
+    #find h2{
+        margin: 0;
+        margin-top: 20px;
+    }
+    #find p{
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    #location{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    
+    #dispo p{
+        margin-left: 1px;
+    }
+    .panneau{
+        width: 306px;
+    }
+    #box_act{
+        margin: 2px;
+        margin-left: 5px;
+    }
+    .duoart{
+        width: 350px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .soloart{
+        width: 350px;
+        margin-left: 30px;
+    }
+    .footer-pannel{
+        margin-left: 1px;
+    }
+    
+    .search2{
+        display: inline-block;
+        padding: 15px;
+        border-radius: 12px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+      body{
+        margin: 0;
+        padding: 0;
+    }
+    #main{
+        margin: 0;
+        margin-left: 33px;
+        width: 119%;
+    }
+    header nav ul{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #find p{
+        margin-left: 0;
+    }
+    section #location{   
+        margin-left: 0;
+    }
+    #box-hebergement {
+        margin-left: 0;
+        background-color: white;
+    }
+    #find h2{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    header nav img{
+        margin-left: 45%;
+    }
+    #filter h2{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    #filter div{
+        margin-top: -50px;
+    }
+    #hebergement article{
+        margin-left: 0;
+    }
+    #populaire article{
+        width: 293px;
+        height: 150px;
+    }
+    .article_pop div {
+        margin-top: 2px;
+    }
+    .bluestar{
+        font-size: 14px;
+    }
+    #bloc2 section {
+        padding: 0;
+    }
+    #bloc2{
+        margin-left: -14px;
+    }
+    .stargrey{
+        font-size: 14px;
+    }
+    #populaire h3{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #populaire h4{
+        margin-top: 2px;
+    }
+    #hebergement{
+        width: 105%;
+        background-color: white;
+    }
+    #populaire{
+        width: 85%;
+    }
+    .soloart{
+        width: 311px;
+    }
+    .duoart{
+        width: 311px;
+    }
+    footer{
+        width: 109%;
+    }
+    #box_act{
+        margin-left: 0;
+    }
+    .soloart article{
+        margin-top: 5px;
+    }
+  }
