@@ -25,6 +25,7 @@
   nav img {
     height: 70px;
     margin-top: 20px;
+    margin-left: 50px;
   }
   
   a {
@@ -96,11 +97,13 @@
   
   #filter {
     margin-top: 30px;
+    display: flex;
   }
   
-  /* #filter h2 {
-    margin: 50px;
-  } */
+  #filter h2 {
+    margin-right: 20px;
+    margin-left: 10px;
+  } 
   
   .monBtn {
     background-color: white;
@@ -141,14 +144,14 @@
   #main-content {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
   #hebergement img {
     border-radius: 20px 20px 0 0;
     text-align: center;
-    width: 270px;
-    height: 117px;
+    width: 100%;
+    height: 150px;
     object-fit: cover;
   }
 
@@ -157,35 +160,33 @@
   }
 
   #hebergement {
-    display: flex;
-    flex-flow: row wrap;
     background-color: #f2f2f2;
-    width: 60%;
+    width: 70%;
     border-radius: 10px;
-    padding-top: 25px;
+    margin-right: 50px;
   }
   
   #box-hebergement {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #f2f2f2;
     border-radius: 10px;
-    margin-top: -78px;
   }
   
   #hebergement article {
     display: flex;
+    flex: 25%;
+    margin: 20px;
     padding: 10px;
     background-color: white;
-    height: 190px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(205, 204, 204);
   }
   
   #hebergement h2 {
-    margin-left: 30px;
-    margin-bottom: 0;
+    margin-top: 25px;
+    margin-left: 25px;
   }
   
   #hebergement h3 {
@@ -214,15 +215,15 @@
     font-size: 13;
   }
   #articles {
-    align-items: center;
+    
     flex-flow: column nowrap;
     display: flex;
-    margin-top: -40px;
   }
   #populaire {
     background-color: #f2f2f2;
     border-radius: 10px;
     padding: 30px;
+    width: 20%;
   }
   #populaire h4{
     margin: 0;
@@ -234,14 +235,15 @@
     display: flex;
     background-color: white;
     border-radius: 15px;
-    margin-top: 47px;
+    margin-top: 40px;
     width: 365px;
-    padding: 6px;
+    padding: 0px;
     box-shadow: 5px 5px 5px rgb(205, 204, 204);
   }
 
   #populaire h3 {
     margin: 0;
+    margin-top: 20px;
   }
   
   #populaire img {
@@ -252,7 +254,7 @@
     object-fit: cover;
   }
   .article_pop div{
-    margin-top: 50px;
+    margin-top: 30px;
   }
   
   #bloc1 {
@@ -270,8 +272,8 @@
   #hebergement h3 {
     font-size: 18px;
     font-family: "Raleway", sans-serif;
+    margin-bottom: 10px;
   }
-  
   #hebergement h4 {
     font-weight: 100;
   }
@@ -311,7 +313,22 @@
     justify-content: space-between;
     margin-left: 40px;
   }
- 
+  
+  .panneau{
+  width: 100%;
+  }
+  #bloc2 .fort img{
+  height: 200px;
+  }
+  #bloc2 .fort{
+    height: 260px;
+  }
+  #bloc2 .frioul{
+    height: 200px;
+  }
+  #bloc2 .frioul img{
+    height: 130px;
+  }
   .duoart img {
     width: 380px;
     height: 170px;
@@ -322,16 +339,16 @@
   #bloc2{
     margin-top: 80px;
   }
-  
+
   #bloc2 article {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(205, 204, 204);
     height: 230px;
-    
   }
-  
+
   .duoart article {
-    margin-top: 39px;
+    margin-top: 0;
+    margin-bottom: 40px;
   }
   
   #bloc2 h2{
@@ -339,7 +356,7 @@
   }
 
   #bloc2 h3 {
-    text-align: center;
+    margin-left: 10px;
   }
 
   #titpop{
@@ -353,7 +370,7 @@
     font-size: 24px;
   }
   .more a {
-    margin-left: 60px;
+    margin-left: 30px;
   }
                     /*MEDIA */
   @media screen and (max-width: 1102px) {
@@ -368,7 +385,7 @@
     nav{display: block;}
     
     header nav img{
-        margin-left: 45%;
+        margin-left: 43%;
     }
     
     header nav ul{
@@ -390,10 +407,9 @@
     #location{
         margin-left: 20%;
     }
-    /* #filter{
-        margin-top: 50px;
+    #filter{
         display: block;
-    } */
+    } 
     /* #filter div{
         margin-left: 50px;
     } */
@@ -408,13 +424,20 @@
         margin-bottom: 20px;
     }
     #hebergement h2{
-        margin-bottom: 70px;
+        margin-bottom: 0;
     }
     #hebergement article{
         margin-top: 20px;
     }
+    #articles{
+      margin-left: 130px;
+    }
     #populaire{
         margin-top: 0;
+        width: 90%;
+    }
+    #bloc2 h2{
+      margin-left: 0;
     }
     footer{
         display: block;
@@ -436,6 +459,9 @@
         display: flex;
         flex-flow: row wrap;
         
+    }
+    .duoart{
+      margin-top: 50px;
     }
     .duoart img{
         width: 100%; 
@@ -484,12 +510,10 @@
     }
     header{
         border-bottom: solid 2px #f2f2f2;
-        
     }
     #hebergement article{
         width: 306px;
         margin-left: 10%;
-        
     }
     #hebergement img{
         width: 100%;
@@ -498,10 +522,12 @@
         display: block;
         margin-top: -46px;
         margin-right: 160px;
+        background-color: white;
     }
     #hebergement{
         width: 91.5%;
         margin: 0;
+        background-color: white;
     }
     #main{
         padding: 0;
