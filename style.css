@@ -108,9 +108,9 @@
   .monBtn {
     background-color: white;
     font-weight: bold;
-    border: solid 3px #f2f2f2;
+    border: solid 3px #d9d9d9;
     border-radius: 30px;
-    border-color: #f2f2f2;
+    border-color: #d9d9d9;
     padding: 0;
     margin: 10px;
   }
@@ -132,12 +132,15 @@
     align-items: center;
     margin-top: 20px;
   }
-  
+  #dispo p{
+    margin-left: 10px;
+    
+  }
   #dispo i {
-    margin: 20px;
+    margin-left: 10px;
     color: #0065fc;
     border: 1px solid rgb(207, 207, 207);
-    padding: 10px 15px 10px 15px;
+    padding: 5px 10px 5px 10px;
     border-radius: 50%;
   }
   
@@ -207,12 +210,12 @@
   
   .stargrey {
     color: rgb(171, 170, 170);
-    font-size: 13;
+    font-size: 13px;
   }
   
   .bluestar {
     color: #0065fc;
-    font-size: 13;
+    font-size: 13px;
   }
   #articles {
     
@@ -236,7 +239,6 @@
     background-color: white;
     border-radius: 15px;
     margin-top: 40px;
-    width: 365px;
     padding: 0px;
     box-shadow: 5px 5px 5px rgb(205, 204, 204);
   }
@@ -311,7 +313,6 @@
   #box_act{
     display: flex;
     justify-content: space-between;
-    margin-left: 40px;
   }
   
   .panneau{
@@ -351,12 +352,9 @@
     margin-bottom: 40px;
   }
   
-  #bloc2 h2{
-    margin-left: 41px;
-  }
 
   #bloc2 h3 {
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   #titpop{
@@ -373,6 +371,22 @@
     margin-left: 30px;
   }
                     /*MEDIA */
+  @media screen and (max-width: 1440px){
+    
+    #populaire img{
+      height: 94%;
+    }
+    #populaire article{
+      height: 180px;
+    }
+    .article_pop div {
+      margin-top: 0;
+    }
+    .soloart{
+      width: 240px;
+    }
+  }
+  
   @media screen and (max-width: 1102px) {
       body{
         margin: 0;
@@ -430,7 +444,7 @@
         margin-top: 20px;
     }
     #articles{
-      margin-left: 130px;
+      margin-left:0;
     }
     #populaire{
         margin-top: 0;
@@ -442,6 +456,7 @@
     footer{
         display: block;
         background-color: #f2f2f2;
+        margin-top: 0;
     }
     .footer-pannel{
         margin-left: 40%;
@@ -478,6 +493,9 @@
     label{
         padding: 15px;
     }
+    #titpop h2{
+      margin-bottom: 0;
+    }
     input{
         padding: 15px;
     }
@@ -503,7 +521,9 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+    #bloc2{
+      margin-top: 0;
+    }
     header a {
         padding: 20px;
         font-size: 15px;
@@ -511,17 +531,15 @@
     header{
         border-bottom: solid 2px #f2f2f2;
     }
-    #hebergement article{
+    /*#hebergement article{
         width: 306px;
         margin-left: 10%;
-    }
+    }*/
     #hebergement img{
         width: 100%;
     }
     #box-hebergement{
         display: block;
-        margin-top: -46px;
-        margin-right: 160px;
         background-color: white;
     }
     #hebergement{
@@ -529,11 +547,18 @@
         margin: 0;
         background-color: white;
     }
+    #filter h2{
+      margin-bottom: 10px;
+    }
+    .more a {
+      margin-left: 10px;
+    }
     #main{
         padding: 0;
     }
     #main-content{
-        display: block;
+      display: flex;
+      flex-direction: column-reverse;
     }
     #find h2{
         margin: 0;
@@ -550,34 +575,41 @@
     }
     
     #dispo p{
-        margin-left: 1px;
+        margin-left: 10px;
+        margin-right: 60px;
     }
-    .panneau{
+    /*.panneau{
         width: 306px;
-    }
+    }*/
     #box_act{
         margin: 2px;
         margin-left: 5px;
     }
     .duoart{
         width: 350px;
-        margin-left: 30px;
+        margin-left: 0;
         margin-bottom: 50px;
     }
     
+    #populaire{
+      width: 87.5%;
+    }
     .soloart{
         width: 350px;
-        margin-left: 30px;
+        margin-left: 0;
     }
     .footer-pannel{
         margin-left: 1px;
     }
-    
+    #articles{
+      margin-left: 0;
+    }
     .search2{
         display: inline-block;
         padding: 15px;
         border-radius: 12px;
     }
+    
   }
   @media screen and (max-width: 320px) {
       body{
