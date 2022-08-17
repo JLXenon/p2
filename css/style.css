@@ -4,15 +4,17 @@
 
 body {
   margin: 0;
-
+  padding: 0 50px;
   font-family: "Raleway", sans-serif;
 }
-
-#main {
-  padding: 0 50px;
+h1{
+  font-size: 1.7em;
 }
+/* #main {
+  padding: 0 50px;
+} */
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +29,7 @@ nav li {
   margin: 0 55px 0 50px;
 }
 
-nav img {
+header img {
   height: 60px;
   margin-top: 20px;
   margin-left: 20px;
@@ -106,7 +108,6 @@ label {
 /* #filter {
   display: flex;
   align-items: center;
-  margin-left: -44px;
 } */
 
 #filter {
@@ -361,7 +362,7 @@ footer a:hover {
   height: 540px;
 }
 .article_pop div{
-  padding-top: 30px;
+  padding-top: 20px;
 }
 #box_act {
   display: flex;
@@ -372,19 +373,19 @@ footer a:hover {
   width: 100%;
 }
 
-#bloc2 .fort img {
+#activites .fort img {
   height: 200px;
 }
 
-#bloc2 .fort {
+#activites .fort {
   height: 260px;
 }
 
-#bloc2 .frioul {
+#activites .frioul {
   height: 200px;
 }
 
-#bloc2 .frioul img {
+#activites .frioul img {
   height: 130px;
 }
 
@@ -395,11 +396,11 @@ footer a:hover {
   object-fit: cover;
 }
 
-#bloc2 {
+#activites {
   margin-top: 80px;
 }
 
-#bloc2 article {
+#activites article {
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgb(205, 204, 204);
   height: 230px;
@@ -411,7 +412,7 @@ footer a:hover {
 }
 
 
-#bloc2 h3 {
+#activites h3 {
   margin-left: 20px;
 }
 
@@ -441,7 +442,7 @@ footer a:hover {
     width: 25%;
   }
 
-  #bloc2 .duoart img {
+  #activites .duoart img {
     width: 100%;
   }
 }
@@ -500,11 +501,11 @@ footer a:hover {
     display: none;
   }
 
-  nav {
+  header {
     display: block;
   }
 
-  header nav img {
+  header img {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -527,7 +528,7 @@ footer a:hover {
 
   }
 
-  #find h2 {
+  #find h1 {
     margin-top: 70px;
   }
 
@@ -566,7 +567,7 @@ footer a:hover {
     width: 93%;
   }
 
-  #bloc2 h2 {
+  #activites h2 {
     margin-left: 0;
   }
 
@@ -615,19 +616,19 @@ footer a:hover {
     margin-top: 40px;
   }
 
-  #bloc2 .fort img {
+  #activites .fort img {
     height: 177px;
   }
 
-  #bloc2 .frioul img {
+  #activites .frioul img {
     height: 177px;
   }
 
-  #bloc2 .frioul {
+  #activites .frioul {
     height: 230px;
   }
 
-  #bloc2 .fort {
+  #activites .fort {
     height: 230px;
   }
 
@@ -667,7 +668,7 @@ footer a:hover {
     margin-left: 0;
   }
 
-  nav img {
+  header img {
     width: 100px;
     height: 60px;
   }
@@ -685,7 +686,7 @@ footer a:hover {
     margin-bottom: 20px;
   }
 
-  #bloc2 {
+  #activites {
     margin-top: 0;
   }
 
@@ -725,7 +726,7 @@ footer a:hover {
     margin-left: 10px;
   }
 
-  #main {
+  body {
     padding: 0;
   }
 
@@ -734,7 +735,7 @@ footer a:hover {
     flex-direction: column-reverse;
   }
 
-  #find h2 {
+  #find h1 {
     margin: 0;
     margin-top: 20px;
   }
@@ -800,10 +801,6 @@ footer a:hover {
     padding: 0;
   }
 
-  #main {
-    margin: 0;
-  }
-
   header nav ul {
     margin-left: 0;
     padding-left: 0;
@@ -822,7 +819,7 @@ footer a:hover {
     background-color: white;
   }
 
-  #find h2 {
+  #find h1 {
     font-size: 20px;
     margin-left: 0;
   }
@@ -853,11 +850,7 @@ footer a:hover {
     font-size: 14px;
   }
 
-  #bloc2 section {
-    padding: 0;
-  }
-
-  #bloc2 {
+  #activites {
     width: 100%;
   }
 
@@ -904,19 +897,19 @@ footer a:hover {
   .duoart article{
     width: 100%;
   }
-  #bloc2 .fort img {
+  #activites .fort img {
     height: 177px;
   }
 
-  #bloc2 .frioul img {
+  #activites .frioul img {
     height: 177px;
   }
 
-  #bloc2 .frioul {
+  #activites .frioul {
     height: 230px;
   }
 
-  #bloc2 .fort {
+  #activites .fort {
     height: 230px;
   }
 }
